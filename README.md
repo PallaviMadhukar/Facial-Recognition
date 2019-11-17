@@ -39,6 +39,8 @@ Apart from doing this with the missing_images, we also validating this with a ce
 Step 7.
 When we input an image of a person who we think may be missing, their gender and approximate age, it is compared to the subset of aged data set. If there is a match, the image is that of a missing person. 
 
+# Result
+Our matches are uploaded in Matches.xlsx
 
 
 
