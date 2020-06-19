@@ -1,15 +1,15 @@
 # KSP-IPH2019-Table39
-Age is just a number(Facial recognition)
+Facial recognition hackathon
 
 # Project Synopsis:
-Solving cases of missing people are hard as more years pass because as we age, our face structure changes. Facial recognition is almost impossible here. To combat this, we suggest creating an aged data set from our existing data set of missing subject cases using Generative Adversarial Networks. By simulating aging, we can then compare any photo taken on sighting with this aged data set. If we know the approximate age, we can check only that subset of the aged data setelse we can runa search through the entire aged data set. This we can recognize subjects real-time whether they have been missing for a few days, or for many years.
+Solving cases of missing people are hard as more years pass because as we age, our face structure changes. Facial recognition is almost impossible here. To combat this, we suggest creating an aged data set from our existing data set of missing subject cases using Generative Adversarial Networks. By simulating aging, we can then compare any photo taken on sighting with this aged data set. If we know the approximate age, we can check only that subset of the aged data set else we can run a search through the entire aged data set. This we can recognize subjects real-time whether they have been missing for a few days, or for many years.
 
 # List of tools:
 Google Colab
 Python 3, Runtime - GPU
 
 # Steps followed(Code with output):
-# For facial recognition
+## For facial recognition
 To prove that there is requirement of aging in facial recognition, we have uploaded Proof.ipynb. Here we can see that a younger version of a person does not match the same person after a few years because of changes in the facial structure.
 
 Step 1.
@@ -20,7 +20,7 @@ Step 2.
 We need to search known_images and identify missing_images by running FR.ipnyb
 The known and unknown encoding data(specific facial features) are uploaded in a csv file.
 
-# For aging
+## For aging
 Step 3.
 We divide the missing_images into folders according to their age, referencing the metadata, by running folders_for_police.ipynb. The result is police_db1.zip.
 
