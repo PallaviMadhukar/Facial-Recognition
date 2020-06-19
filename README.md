@@ -1,7 +1,8 @@
 # KSP-IPH2019-Table39
-Indian Police Hackathon '19
-Topic: Facial Recognition
-Team Name: Age is just a number
+### Indian Police Hackathon '19 
+
+### Topic: Facial Recognition
+### Team Name: Age is just a number
 
 # Project Synopsis:
 Solving cases of missing people are hard as more years pass because as we age, our face structure changes. Facial recognition is almost impossible here. To combat this, we suggest creating an aged data set from our existing data set of missing subject cases using Generative Adversarial Networks. By simulating aging, we can then compare any photo taken on sighting with this aged data set. If we know the approximate age, we can check only that subset of the aged data set else we can run a search through the entire aged data set. This we can recognize subjects real-time whether they have been missing for a few days, or for many years.
