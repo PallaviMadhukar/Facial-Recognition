@@ -1,5 +1,5 @@
 # KSP-IPH2019-Table39
-### Indian Police Hackathon '19 
+### India Police Hackathon '19 
 
 ### Topic: Facial Recognition
 ### Team Name: Age is just a number
