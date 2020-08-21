@@ -24,14 +24,14 @@ Step 2.
 The [known](/known.csv) and [unknown](/unknown.csv) encoding data(specific facial features) are uploaded in a csv file.
 
 Step 3. 
-We need to search known_images and [identify missing_images](/Facialrec.ipnyb) by comparing the encoding data present in the csv files.
+We need to search known_images and [identify missing_images](/Facialrec.ipynb) by comparing the encoding data present in the csv files.
 
 ### For aging
 Step 4.
 We [divide the missing_images into folders according to their age](folders_for_police.ipynb), referencing the metadata. The result is attached [here.](/police_db1.zip)
 
 Step 5.
-We [preprocess](/preproc.ipynb) for each folder. This identifies faces, isolates, crops, resizes to (128,128), and converts RGB image to greyscale.
+We preprocess each image. This identifies faces, isolates, crops, resizes to (128,128), and converts RGB image to greyscale.
 <p align="center">
   <img src="preproc_op.jpeg">
 </p>
@@ -51,7 +51,7 @@ Step 8.
 When we input an image of a person who we think may be missing, their gender and approximate age, it is compared to the subset of aged data set. If there is a match, the image is that of a missing person. 
 
 # Result
-Our matches are [uploaded].(/matches_missing.xlsx)
+Our matches are [uploaded.](/matches_missing.xlsx)
 
 
 
